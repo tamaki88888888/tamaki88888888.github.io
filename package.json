@@ -1,0 +1,32 @@
+{
+  "name": "tamaki88888888.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaki88888888/tamaki88888888.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamaki88888888/tamaki88888888.github.io/issues"
+  },
+  "homepage": "https://github.com/tamaki88888888/tamaki88888888.github.io#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "textlint": "^13.3.3",
+    "textlint-rule-no-todo": "^2.0.1"
+  },
+  "dependencies": {
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+  }
+}
