@@ -23,5 +23,8 @@
   "devDependencies": {
     "textlint": "^13.3.3",
     "textlint-rule-no-todo": "^2.0.1"
+  },
+  "dependencies": {
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
   }
 }
