@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/tamaki88888888/tamaki88888888.github.io#readme",
   "devDependencies": {
-    "textlint": "^13.3.3"
+    "textlint": "^13.3.3",
+    "textlint-rule-no-todo": "^2.0.1"
   }
 }
