@@ -1,122 +1,81 @@
+<!--
+ 【目標】
+ 2024.8 CCNA
+ 2024.9 IELTS 6.5
+ -->
+
 # 職務経歴書
 
 ## 基本情報
 
-| key      | value                 |
-| -------- | --------------------- |
-| 氏名     | 玉城　好（Tamaki Ko） |
-| 生年月日 | 1995/10/14            |
-| 居住地   | 東京都                |
+| 項目名     | 内容                                                                                                                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 氏名       | 玉城　好（Tamaki Ko）                                                                                                                                                                                        |
+| 生年月日   | 1995 年 10 月                                                                                                                                                                                                |
+| 居住地     | 東京都                                                                                                                                                                                                       |
+| アカウント | <a href="https://twitter.com/koukoukokoko" target="_blank">Twitter</a>, <a href="https://github.com/tamaki88888888" target="_blank">GitHub</a>, <a href="https://zenn.dev/kotamaki" target="_blank">Zenn</a> |
 
+## 技術
 
----
-
-## 各種アカウント
-
-<p>
-<a href="https://twitter.com/koukoukokoko" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@koukoukokoko-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
-<a href="https://okinawanpizza.hatenablog.com/" target="_blank"><img alt="Hatena" src="https://img.shields.io/badge/kotamaki88888888-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-<a href="https://github.com/tamaki88888888" target="_blank"><img alt="Github" src="https://img.shields.io/badge/kotamaki88888888-%231DA1F2.svg?&style=flat-square&logo=HatenaBookmark&logoColor=white" /></a>
-<a href="https://qiita.com/kosan" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/kosan-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
-<a href="https://zenn.dev/kotamaki" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/ko-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white" /></a>
-</p>
-
----
-
-## 保有スキル
-
-- JavaScript / TypeScript + React.js でのフロントエンド開発・設計
-- Jest / Storybook を活用しテストコードを積極的に構築
-- Figma / WordPress での Web デザイン・制作
-
----
-
-## 技術スタック
-
-### 言語
-
-<p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
-  <img alt="Perl" src="https://img.shields.io/badge/-Perl-39457E?style=flat-square&logo=perl&logoColor=white" />
-</p>
-
-### フレームワーク・その他
-
-<p>
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-  <img alt="Recoil" src="https://img.shields.io/badge/-Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white" />
-  <img alt="Next" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img alt="Storybook" src="https://img.shields.io/badge/-Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white" />
-  <img alt="WordPress" src="https://img.shields.io/badge/-WordPress-21759B?style=flat-square&logo=wordPress&logoColor=white" />
-  <img alt="Jest" src="https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=Jest&logoColor=white" />
-  <img alt="Gatsby" src="https://img.shields.io/badge/-Gatsby-663399?style=flat-square&logo=Gatsby&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="JQuery" src="https://img.shields.io/badge/-JQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
-</p>
-
----
+| 項目名           | 内容                                                                   |
+| ---------------- | ---------------------------------------------------------------------- |
+| 言語             | TypeScript, JavaScript                                                 |
+| フレームワーク等 | React, Next, zustand, Recoil, Redux, Tailwind, Jest, JQuery, WordPress |
+| API 設計         | tRPC, REST                                                             |
+| ツール等         | OpenAPI, Docker, Storybook, trpc-msw, Figma                            |
+| 開発手法         | スクラム開発、 チケット駆動開発                                        |
 
 ## 職務経歴詳細
 
-### wano 株式会社（2022/02〜現在）
+### セールステック系スタートアップ企業 （2023/11〜2024/06）
 
-音楽配信サービス TuneCore Japan のフロントエンド開発に従事。ユーザーの利便性を高める機能実装の設計〜実装を担当。中規模開発においてフロントエンド詳細設計を担当。また社外の勉強会などにも足を運んだり、社内イベントにも積極的に参加したりしている。
+**AI マーケティングプロダクト**
 
-- **プロジェクト規模：**
-  - 平均 4 人チームでのスクラム開発
-- **プロジェクト詳細：**
-  - React.js + TypeScript での SPA 開発
-  - 画像編集機能(クロップ＋リサイズ) 開発
-  - Perl での API 開発
+| 活動詳細             |                                                                                                                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 編成                 | プロダクトマネージャー１人, アプリケーションエンジニア２人, 機械学習エンジニア１人                                                                                                   |
+| 役割                 | フロントエンドを担当                                                                                                                                                                 |
+| 言語・フレームワーク | React, Next, zustand, zod, Prisma, Nest, Jest                                                                                                                                        |
+| ツール               | GCS, JIRA, msw, Figma, PostgresQL                                                                                                                                                    |
+| 業務                 | ① AI 画像生成ツールに機能追加・UIUX 改善 <br> ② リファクタリング                                                                                                                     |
+| 業界                 | AI マーケティング (主に AI 画像生成機能にアサイン)                                                                                                                                   |
+| チーム特徴           | 新規事業プロジェクトのために新しく結成された開発チーム。チケット駆動開発を採用、風通しが良くソフト面での業務改善や輪読会などの交流イベントがボトムアップで行われることが多いチーム。 |
 
-### 株式会社 プラコレ（2019/04〜2021/10）
+### 音楽ディストリビューション関連企業 （2022/02〜2023/11）
 
-ウェディング事業会社 にて web 制作およびフロントエンド開発に従事。コーポレートサイトや自社サービスの保守・運用、リニューアル業務を担当。2 年目は、勤怠管理システムの β 版の設計・開発や、自社メディアの SEO の向上を目的とした運用を担当する。
+**楽曲配信サービス**
 
-- **プロジェクト規模：**
-  - 平均 2〜4 人チームでのウォーターフォール開発
-- **役割：**
-  - 自社メディアサイト、および EC サイト運用保守
-  - 新規サービス機能設計・実装
-  - 受託 web 制作
-- **プロジェクト詳細：**
-  - WordPress + JQuery での 運用・保守
-  - Ruby on Rails ＋ React での web サービス設計・開発
-  - AMP ページ導入による WordPress サイトの最適化
-  - web サイト受託開発
+| 活動詳細             |                                                                                                                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 編成                 | プロダクトマネージャー１人, バックエンド２人, フロントエンド２人                                                                                                                     |
+| 役割                 | フロントエンドを担当                                                                                                                                                                 |
+| 言語・フレームワーク | React, Next, Recoil, Go, Perl, JavaScript, JQuery                                                                                                                                    |
+| ツール               | Docker, Docker Componse, AWS, GitHub, OAuth, MySQL                                                                                                                                   |
+| 業務                 | ① 新規プロダクトの FE 設計・開発 <br> ② 既存サービスの管理画面 UI UX 改善 <br>                                                                                                       |
+| 業界                 | 音楽ディストリビューション                                                                                                                                                           |
+| チーム特徴           | 新規事業プロジェクトのために新しく結成された開発チーム。チケット駆動開発を採用、風通しが良くソフト面での業務改善や輪読会などの交流イベントがボトムアップで行われることが多いチーム。 |
 
----
+### ウエディング系スタートアップ企業 （2019/6〜2021/10）
 
-## 業務外活動
+**受託ウェブサイト、LP 制作** <br>
+**業務管理アプリ**
+
+| 活動詳細             |                                                                                                                                                                                                                                                      |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 編成                 | デザイナー２人, エンジニア３人                                                                                                                                                                                                                       |
+| 役割                 | Web 受託と自社 web アプリケーションのフロントエンドを担当                                                                                                                                                                                            |
+| 言語・フレームワーク | React, Next, Redux, Ruby <br> JavaScript, JQuery, WordPress, AMPhtml, gulp                                                                                                                                                                           |
+| ツール等             | PhotoShop, Google Analytics                                                                                                                                                                                                                          |
+| 業務                 | ① LP・ウェブサイト制作<br> ② アプリケーション開発 <br> ③ 自社オウンドメディア運用保守                                                                                                                                                                |
+| 業界                 | ウェディング、受託 LP 制作                                                                                                                                                                                                                           |
+| チーム特徴           | 部署のエンジニアとして 3 人目のエンジニア。当時はコロナの影響もあって会社が停滞していたことなどが影響して、一人で複数のプロダクトを並行して運用する状態だった。<br> 会社全体の密度が大きいため、常にエンジニア以外の部署との連携が求められるチーム。 |
+| チーム課題           | プロダクトの前任(開発者・PM)がすでに会社を離職されているケースが多く意図を把握するのに時間がかかる課題があった。新機能実装時は必ずドキュメントを作成し属人性を除取り除くよう努めた。会社自体の認知度向上のため毎月一本の技術記事投稿を行った。       |
+
+## その他活動
 
 ### 副業
 
 - **建設会社 Web 開発**
   - 担当：実装
   - [https://akitsudoro.com/](https://akitsudoro.com/)
-  - 使用技術：PHP, JavaScript, WordPress
-  - 受託開発業務のサポート。フロントエンド実装を主に行う。
-
-### 個人開発
-
-- **自己紹介サイト**
-  - 使用技術：TypeScript, Next.js, React
-  - [https://me-azure-xi.vercel.app/](https://me-azure-xi.vercel.app/)
-  - 個人開発したものを紹介するためのサイト。開発当時クリーンアーキテクチャについて学習中だったことが伴い、react-spring などの UI ライブラリがドメイン層に依存しないような設計を意識。
-
-### 技術記事投稿
-
-- **Hatena Blog**
-  - 大学卒業時からスタートし、主に学んだこと+週報を記載。2023/06 現在 , 182 記事、 40,000 PV
-  - [https://okinawanpizza.hatenablog.com/](https://okinawanpizza.hatenablog.com/)
-
----
-
-## 意欲・興味
-
-- 少人数チームで小さく早くリリースし、フィードバックを受けながら改善のサイクルを回していくアジャイルな開発スタイルを好みます
-- デザイン・フロントエンド周りの新しい分野・技術への興味関心が強く、特に個人開発でのアウトプットを中心として技術習得することが多いです。
-- アニメーションや遊び心のあるフロントライブラリは特に興味があり、タスクにおいて実装方針と噛み合えば積極的に導入提案させていただきたいです。
+  - 使用技術：JavaScript, WordPress, Figma
