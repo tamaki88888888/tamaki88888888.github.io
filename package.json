@@ -27,6 +27,11 @@
     "textlint-rule-no-todo": "^2.0.1"
   },
   "dependencies": {
-    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+    "@types/node": "^22.0.0",
+    "chokidar": "^3.6.0",
+    "md-to-pdf": "^5.2.4",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
