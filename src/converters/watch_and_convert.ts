@@ -32,6 +32,7 @@ async function runCommands() {
 
 /**
  * テキストパスを監視して、変更があったらコマンドを実行
+ * @deprecated
  */
 const watcher = chokidar.watch(filesToWatch, {
   persistent: true,
