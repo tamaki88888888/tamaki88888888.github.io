@@ -23,6 +23,8 @@ async function runCommands() {
 
     await execPromise("npx ts-node generate_pdf.ts");
     console.log("PDF generated successfully!");
+
+    await execPromise("open RESUME.pdf");
   } catch (error) {
     console.error("Error occurred:", error);
   }
