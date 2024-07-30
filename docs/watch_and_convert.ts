@@ -12,27 +12,33 @@ const filesToWatch = [
   "template.md",
 ];
 
-// コマンドを実行する関数
+/**
+ *
+ */
 async function runCommands() {
   try {
     // TypeScript スクリプトの実行
     await execPromise("npx ts-node generate_markdown.ts");
     console.log("Markdown generated successfully!");
 
-    // Markdown を PDF に変換
-    await execPromise("md-to-pdf RESUME.md");
+    await execPromise("npx ts-node generate_pdf.ts");
     console.log("PDF generated successfully!");
   } catch (error) {
     console.error("Error occurred:", error);
   }
 }
 
-// ファイル変更を監視
+/**
+ * テキストパスを監視して、変更があったらコマンドを実行
+ */
 const watcher = chokidar.watch(filesToWatch, {
   persistent: true,
   ignoreInitial: true,
 });
 
+/**
+ * ファイルが変更されたときの処理
+ */
 watcher.on("change", (path) => {
   console.log(`${path} has been changed. Running tasks...`);
   runCommands();
