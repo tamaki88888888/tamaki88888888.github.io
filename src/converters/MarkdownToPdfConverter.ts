@@ -4,7 +4,6 @@ import { mdToPdf } from "md-to-pdf";
 /**
  * Markdown ファイルを PDF に変換する関数
  */
-
 export class MarkdownToPdfConverter {
   private markdownPath: string;
   private pdfPath: string;
