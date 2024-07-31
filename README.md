@@ -2,14 +2,16 @@
 
 ## Overview
 
-このプロジェクトは私の職務経歴書をマークダウンで記述したものです。指定した Markdown テンプレートとタスクファイルの変更を監視し、自動的に Markdown ファイル (`RESUME.md`) を生成し、その後 PDF に変換するツールです。`generate_markdown.ts` と `watch_and_convert.ts` の 2 つのスクリプトを使用して、タスクの更新から PDF 生成までのプロセスを自動化します。
+職務経歴を記載したマークダウンを pdf 化するために書いたコードです。<br>
+指定した Markdown テンプレートと業務タスクファイルの変更を監視し、自動的に Markdown ファイル (`RESUME.md`) を生成、その後 PDF に変換しています。<br>
 
 ## Requirement
 
 - Node.js
 - md-to-pdf
-- typescript
+- TypeScript
 - ts-node
+- chokidar (ファイル監視用)
 
 ## Usage
 
@@ -25,18 +27,21 @@
    ファイルの変更を監視し、自動で処理を実行するためには、以下のコマンドを使用します。
 
    ```bash
-   npx ts-node watch_and_convert.ts
+   npm run start
    ```
 
    タスクファイルやテンプレートファイルの変更を監視し変更の都度下記が自動的に実行されます。
 
-   - template.md の更新
+   - RESUME.md の更新
    - RESUME.md を PDF に変換
+
+   **推奨**
+
+   [PDF Viewer](https://marketplace.visualstudio.com/items?itemName=AdamRaichu.pdf-viewer)
 
 ## Features
 
-- 職務経験を会社毎に Table で表示
-- 長文を書く場合に br タグの入る文字列がワンラインで記述しないといけないので、txt を埋め込込み `generate_markdown.ts` で監視しています。
+- Table 内に何十行も記述すると読みにくいワンラインになってしまうので、業務項目のテキストファイルだけ別ファイルに切り出し watch しています。
 
 ## Author
 
