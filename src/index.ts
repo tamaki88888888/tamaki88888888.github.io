@@ -4,24 +4,31 @@ import { FileWatcher } from "./converters/FileWatcher";
 import { MarkdownGenerator } from "./converters/MarkdownGenerator";
 import { MarkdownToPdfConverter } from "./converters/MarkdownToPdfConverter";
 
-// PDFへのコンバーターをインポート
+// npm src/index.ts は ルートディレクトリから実行しているから、全てのパスはルートディレクトリからの相対パスで指定する
 
+// PDFへのコンバーターをインポート
 const filesToWatch = [
-  "tasks/ai_tasks.txt",
-  "tasks/music_tasks.txt",
-  "tasks/wedding_tasks.txt",
-  "templates/template.md",
+  "src/tasks/ai_tasks.txt",
+  "src/tasks/music_tasks.txt",
+  "src/tasks/wedding_tasks.txt",
+  "src/templates/template.md",
+];
+
+const tasksFiles = [
+  "src/tasks/ai_tasks.txt",
+  "src/tasks/music_tasks.txt",
+  "src/tasks/wedding_tasks.txt",
 ];
 
 const markdownToPdfConverter = new MarkdownToPdfConverter(
-  "output/resume.md",
-  "output/resume.pdf"
+  "output/RESUME.md",
+  "output/RESUME.pdf"
 );
+
 const markdownGenerator = new MarkdownGenerator(
-  "tasks",
-  "templates/template.md",
-  "output/resume.md",
-  filesToWatch
+  "src/templates/template.md",
+  "output/RESUME.md",
+  tasksFiles
 );
 
 const documentProcessor = new DocumentProcessor(

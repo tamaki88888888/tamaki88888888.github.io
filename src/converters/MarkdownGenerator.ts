@@ -33,10 +33,9 @@ export class MarkdownGenerator {
       // プレースホルダーを置換
       let updatedContent = templateContent;
       taskContents.forEach((content, index) => {
-        updatedContent = templateContent.replace(
-          `{{ task_${index} }}`,
-          content
-        );
+        const filePath = this.taskFiles[index];
+        const baseName = path.basename(filePath, path.extname(filePath));
+        updatedContent = updatedContent.replace(`{{ ${baseName} }}`, content);
       });
 
       // 結果の出力
