@@ -1,10 +1,13 @@
 import * as chokidar from "chokidar";
+import { DocumentProcessor } from "./DocumentProcessor";
 
-class FileWatcher {
+export class FileWatcher {
   private filesToWatch: string[];
+  private documentProcessor: DocumentProcessor;
 
-  constructor(filesToWatch: string[]) {
+  constructor(filesToWatch: string[], documentProcessor: DocumentProcessor) {
     this.filesToWatch = filesToWatch;
+    this.documentProcessor = documentProcessor;
   }
 
   public startWatching() {
@@ -15,25 +18,7 @@ class FileWatcher {
 
     watcher.on("change", async (path) => {
       console.log(`${path} has been changed. Running tasks...`);
-      await this.runCommands();
+      await this.documentProcessor.processDocuments();
     });
-
-    console.log("Watching for file changes...");
   }
-
-  private runCommands(): Promise<void> {
-    return new Promise((resolve, reject) => {
-      try {
-        // TypeScript スクリプトの実行
-        execPromise("npx ts-node generate_markdown.ts");
-        console.log("Markdown generated successfully!");
-
-        execPromise("npx ts-node generate_pdf.ts");
-        console.log("PDF generated successfully!");
-
-        execPromise("open RESUME.pdf");
-        resolve();
-      }
-    })
-  };
 }

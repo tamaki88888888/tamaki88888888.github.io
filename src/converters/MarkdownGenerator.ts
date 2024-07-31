@@ -3,18 +3,11 @@ import * as fs from "fs";
 import * as path from "path";
 
 export class MarkdownGenerator {
-  private markdownPath: string;
   private templatePath: string;
   private outputPath: string;
   private taskFiles: string[];
 
-  constructor(
-    markdownPath: string,
-    templatePath: string,
-    outputPath: string,
-    taskFiles: string[]
-  ) {
-    this.markdownPath = markdownPath;
+  constructor(templatePath: string, outputPath: string, taskFiles: string[]) {
     this.templatePath = templatePath;
     this.outputPath = outputPath;
     this.taskFiles = taskFiles;
